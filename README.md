@@ -16,6 +16,14 @@ The steps involved in preparing image dataset are below:
 This process is done in **Pre-Processing.ipynb** where all the steps explained in detail.
 
 # 2. Training and validation of model
+I have used Fastai implementation on ResNet152 model which very fast in terms of learning time and also giving very good accuracy with 30 minutes of training time.Here are the steps involved in training and validation:
+* Creating data augmentation and batches to feed into model
+* Using pre-trained model as initial step towards model building
+* Unfreezing the model and train the model for all weights
+* Checking accuracy on validation data and testing dataset
+
+All of the above steps are done in **Training&Validation.ipynb** notebook. All steps are explained in detail inside the notebook.
+
 
 
 https://drive.google.com/file/d/1kh-xsHcyjdNg-F9FxDbUZtOAHz2h2qpn/view?usp=sharing
