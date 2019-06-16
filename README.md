@@ -19,10 +19,11 @@ This process is done in **Pre-Processing.ipynb** where all the steps explained i
 I have used Fastai implementation on ResNet152 model which very fast in terms of learning time and also giving very good accuracy with 30 minutes of training time.Here are the steps involved in training and validation:
 * Creating data augmentation and batches to feed into model
 * Using pre-trained model as initial step towards model building
-* Unfreezing the model and train the model for all weights
+* Unfreezing the model, geting optimal learning rate and epochs and train the model for all weights
 * Checking accuracy on validation data and testing dataset
 
 All of the above steps are done in **Training&Validation.ipynb** notebook. All steps are explained in detail inside the notebook.
+Accuracy on test dataset images is coming as 88%, which is quite good. This can also be improved by creating hybrid modesl, experimenting with mixing different types of hidden layers.
 
 
 
