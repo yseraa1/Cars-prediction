@@ -22,8 +22,7 @@ I have used Fastai implementation on ResNet152 model which very fast in terms of
 * Unfreezing the model, geting optimal learning rate and epochs and train the model for all weights
 * Checking accuracy on validation data and testing dataset
 
-All of the above steps are done in **Training&Validation.ipynb** notebook. All steps are explained in detail inside the notebook.
-Accuracy on test dataset images is coming as 88%, which is quite good. This can also be improved by creating hybrid modesl, experimenting with mixing different types of hidden layers.
+All of the above steps are done in **Training&Validation.ipynb** notebook. All steps are explained in detail inside the notebook. i have got 70% accuracy on validation dataset using pre-trained model whereas got 88% using unfreezing and training model again. Accuracy on test dataset images is coming as 88%, which is quite good. This can also be improved by creating hybrid modesl, experimenting with mixing different types of hidden layers.
 
 
 
