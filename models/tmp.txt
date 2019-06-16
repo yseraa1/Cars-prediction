@@ -1,1 +1,1 @@
-Tempfile
+In this folder, model weights file will be stored and used whenever neeeded.
